@@ -1,0 +1,203 @@
+body {
+    color: red;
+    font-family: arial, helvetica;
+    background-image: url(../ponder.prove/images/garden.jpg);
+    background-repeat: repeat-y;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+header {
+    line-height: 50%;
+    float: left;
+    border: solid red;
+    width: 50%;
+}
+
+nav {
+    color: #00FF00;
+    background-color: rgba(247, 209, 210, .5);
+    text-indent: 50px;
+    margin-left: 55%;
+    border: dashed thick green;
+    margin-left: 55%;
+    width: 50%;
+}
+
+nav ol {
+    background-color: fuchsia;
+}
+
+nav ol li {
+    border: solid thick purple;
+    margin: 1.5em;
+    padding: 1.5em;
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+nav ul li {
+    display: list-item
+}
+
+nav ol#rocks li {
+    color: pink;
+    list-style-type: hiragana;
+}
+
+div#left-col {}
+
+main strong {
+    color: purple;
+    font-size: 36px;
+}
+
+main img {
+    height: 150px;
+    width: 125px;
+}
+
+aside.introduction {
+    font-size: 8px;
+    color: #00FF00;
+}
+
+
+/*green*/
+
+footer {
+    color: rgb(0%, 100%, 0%);
+}
+
+
+/*black*/
+
+footer ul {
+    text-shadow: 3px 3px 1px #777777;
+}
+
+footer ul li {
+    display: inline;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    font-family: cursive, arial;
+    font-size: x-large;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+h1.dropcap::first-letter {
+    font-weight: bold;
+    font-size: 3em;
+    color: yellow;
+}
+
+h2 {
+    color: green;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+h4 {
+    color: green;
+}
+
+table {
+    color: green;
+    width: 50%;
+    border: solid 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4em 4em 4em 6em/4em 6em 8em 2em;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+table:hover {
+    width: 75%;
+}
+
+th {
+    letter-spacing: -.25em;
+    border: dashed pink;
+}
+
+caption {
+    font-size: 1.5em;
+}
+
+td {
+    text-decoration: line-through;
+    border: solid purple;
+}
+
+dd {
+    word-spacing: 1.5em;
+}
+
+span.docintro {
+    color: rgb(0, 0, 255);
+}
+
+
+/*blue*/
+
+.dropcap::first-letter {
+    color: purple;
+    font-size: 600%;
+}
+
+.sitebranding {
+    font-size: 6px;
+    background-color: aqua
+}
+
+.firstsentence {
+    font-weight: bold;
+}
+
+.fs2em {
+    font-size: 2em;
+}
+
+.fs2ex {
+    font-size: 2ex;
+}
+
+.fs24px {
+    font-size: 24px;
+}
+
+.fs120prcnt {
+    font-size: 120%;
+}
+
+.fs24pt {
+    font-size: 24pt;
+}
+
+.fsin {
+    font-size: .5in;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+a:visited {
+    rgb(33%, 100%, 45%);
+}
+
+a:hover {
+    font-weight: bold;
+    color: green;
+}
+
+a:active {
+    color: rgb(56, 125, 200);
+}
