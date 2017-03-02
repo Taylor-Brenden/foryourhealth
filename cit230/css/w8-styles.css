@@ -62,6 +62,13 @@ table {
     margin-left: auto;
     margin-right: auto;
     border: 3px solid darkorange;
+    width: 50%;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+table:hover {
+    width: 100%;
 }
 
 th {
