@@ -190,7 +190,7 @@ a:link {
 }
 
 a:visited {
-    rgb(33%, 100%, 45%);
+    color: rgb(33%, 100%, 45%);
 }
 
 a:hover {
