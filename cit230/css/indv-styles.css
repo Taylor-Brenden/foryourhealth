@@ -1,14 +1,8 @@
 .title {
-    display: inline;
-    font-size: 3em;
-    text-align: center;
-}
-
-header p {
-    background-color: dimgray;
-    color: whitesmoke;
-    position: absolute;
-    border:
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
 }
 
 nav {
@@ -54,4 +48,19 @@ table {
 .dates {
     background-color: dimgray;
     color: whitesmoke;
+}
+
+.CDimg {
+    border: solid 3px darkorange;
+}
+
+.LPimg {
+    border: solid 3px darkorange;
+    border-radius: 50px;
+}
+
+.CASimg {
+    border: solid 3px darkorange;
+    height: 60px;
+    width: 120px;
 }
