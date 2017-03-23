@@ -4,13 +4,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>venueinfo.html</title>
-    <link href="../cit230/css/indv-styles.css" rel="stylesheet" type="text/css">
+    <link href="../css/indv-styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <header>
         <figure class="title">
-            <a href="../index.html"><img src="../cit230/indv-design-docs/heading.png" alt="band logo" title="band logo" width="95%" /></a>
+            <a href="../index.html"><img src="../indv-design-docs/heading.png" alt="band logo" title="band logo" width="95%" /></a>
         </figure>
         <nav>
             <a href="about.html">About</a>
@@ -21,35 +21,36 @@
             <a href="../cit230-links.html"> CIT230-links</a>
         </nav>
     </header>
-    <div>
+    <button type="button" onclick="document.getElementById('size').style.fontSize='35px'">Click to change size</button>
+
+    <div id="size">
         <h4 id="2182017" class="dates">2/18/2017</h4>
         <p><strong>Idaho Falls, ID @ The Gem</strong>
             <br> 7p.m. - 12p.m.
             <br>
-            <strong>Lineup:</strong> BoSoGa, Opskamatrists, TV Dads, No Cable, For Your Health
+            <button type="button" onclick="document.getElementById('deets').style.display='block'">Details</button>
+            <div id="deets" style="display:none">Spring Riot 2017
+                <br><strong>Lineup:</strong> BoSoGa, Opskamatrists, TV Dads, No Cable, For Your Health</div>
             <br>$12 at door</p>
 
         <h4 id="2242017" class="dates">2/24/2017</h4>
         <p><strong>Pocatello, ID @ The First National</strong>
             <br> 7p.m. - 10p.m.
             <br>
-            <strong>Lineup:</strong> Opskamatrists, For Your Health
+            <button type="button" onclick="document.getElementById('deets1').style.display='block'">Details</button>
+            <div id="deets1" style="display:none">
+                <strong>Lineup:</strong> Opskamatrists, For Your Health</div>
             <br> FREE
         </p>
-
-        <h4 id="2302017" class="dates">2/30/2017</h4>
-        <p><strong>Idaho Falls, ID @ The Gem</strong>
-            <br> 7p.m. - 12p.m.
-            <br>
-            <strong>Lineup:</strong> BoSoGa, Opskamatrists, TV Dads, No Cable, For Your Health</p>
 
         <h4 id="3082017" class="dates">3/08/2017</h4>
         <p><strong>Helena,MT @ The Pub</strong>
             <br> 7p.m. - 12p.m.
             <br>
-            <strong>Lineup:</strong> BoSoGa, Opskamatrists, TV Dads, No Cable, For Your Health</p>
-
-        <h4 id="3152017" class="dates">4/26/2017</h4>
+            <button type="button" onclick="document.getElementById('deets2').style.display='block'">Details</button>
+            <div id="deets2" style="display:none">
+                <strong>Lineup:</strong> BoSoGa, Opskamatrists, TV Dads, No Cable, For Your Health</p>
+        </div <h4 id="3152017" class="dates">4/26/2017</h4>
         <p><strong>Jacksonhole, ID @ The Pink Garter</strong>
             <br> 7p.m. - 12p.m.
             <br>

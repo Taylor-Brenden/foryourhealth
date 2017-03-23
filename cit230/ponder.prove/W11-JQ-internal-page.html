@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>hazardousvoltage.html</title>
+    <link href="../css/indv-styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        $("button").click(function () {
+            alert("This will take you to your cart");
+        });
+
+        $("#listen").hover(function () {
+                $(this).css("background-color", "darkorange");
+            },
+            function () {
+                $(this).css("background-color", "white");
+            });
+
+        $("#descrip").dblclick(function () {
+            $(this).hide("slow");
+        });
+
+    });
+</script>
+
+<body>
+    <header>
+        <figure class="title">
+            <a href="../index.html"><img src="../indv-design-docs/heading.png" alt="band logo" title="band logo" width="95%" /></a>
+        </figure>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="store.html">Store</a>
+            <a href="dates.html">Dates</a>
+            <a href="videos.html">Videos</a>
+            <a href="contact.html">Contact</a>
+            <a href="../cit230-links.html"> CIT230-links</a>
+        </nav>
+    </header>
+    <div>
+        <h2>Hazardous Voltage EP</h2>
+
+
+        <figure>
+            <figcaption><img src="../indv-design-docs/main-logo.jpg" alt="Hazardous Volatage EP" height="200" width="200" /></a>
+            </figcaption>
+        </figure>
+
+        <div id="descrip">
+            <p>
+                This is For Your Health's debut EP, recorded in the bedroom of Tanner Gannaway.
+                <br>
+                <ol>
+                    <li>4-2</li>
+                    <li>Two-Face</li>
+                    <li>Montreal</li>
+                    <li>These aren't even Toms, they're Sperry's</li>
+                    <li>The Beast</li>
+                </ol>
+                (double click to hide)
+            </p>
+        </div>
+        <p id="listen">Listen to this sample of Two Face:
+            <audio src="../indv-design-docs/twoface.ogg" controls></audio>
+        </p>
+
+        <button>Buy $4.00</button>
+    </div>
+</body>
+
+</html>

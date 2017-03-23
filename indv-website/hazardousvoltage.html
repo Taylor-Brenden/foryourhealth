@@ -7,6 +7,19 @@
     <link href="../cit230/css/indv-styles.css" rel="stylesheet" type="text/css">
 </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        $("button").click(function () {
+            alert("This will take you to your cart");
+        });
+
+    });
+</script>
+
 <body>
     <header>
         <figure class="title">
@@ -31,11 +44,23 @@
         </figure>
 
         <p>
-            This is For Your Health's debut EP, recorded under Mike's Music in Rexburg, Idaho.</p>
+            This is For Your Health's debut EP, recorded in the bedroom of Tanner Gannaway.
+            <br>
+            <ol>
+                <li>4-2</li>
+                <li>Two-Face</li>
+                <li>Montreal</li>
+                <li>These aren't even Toms, they're Sperry's</li>
+                <li>The Beast</li>
+            </ol>
+            (double click to hide)
+        </p>
+
         <p>Listen to this sample of Two Face:
             <audio src="../cit230/indv-design-docs/twoface.ogg" controls></audio>
         </p>
-        <p><a href="cart.html">Buy</a> $4.00</p>
+
+        <button>Buy $4.00</button>
     </div>
 </body>
 
