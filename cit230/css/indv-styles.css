@@ -96,6 +96,21 @@ table {
     width: 120px;
 }
 
+.storelinks {
+    font-size: 1.3em;
+}
+
+.musiclink {
+    border-right: solid 3.5px darkorange;
+    padding-right: 17%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.merchlink {
+    padding-left: 12%;
+}
+
 footer {
     background-color: dimgray;
     position: absolute;
