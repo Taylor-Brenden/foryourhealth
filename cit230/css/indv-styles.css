@@ -39,7 +39,7 @@ a:visited:hover {
 .main {
     text-align: center;
     font-size: 34px;
-    font-family: "Calibri Light", sans-serif;
+    font-family: "Calibri Light", serif, sans-serif;
 }
 
 .profile {
