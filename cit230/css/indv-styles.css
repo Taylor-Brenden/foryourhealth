@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Calibri Light;
+    src: url("../../ind-design-docs/calibril")
+}
+
 html {
     position: relative;
     min-height: 100%;
