@@ -5,20 +5,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>hazardousvoltage.html</title>
     <link href="../cit230/css/indv-styles.css" rel="stylesheet" type="text/css">
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-</script>
+            $("button").click(function () {
+                alert("This will take you to your cart");
+            });
 
-<script>
-    $(document).ready(function () {
-
-        $("button").click(function () {
-            alert("This will take you to your cart");
         });
-
-    });
-</script>
+    </script>
+</head>
 
 <body>
     <header>
@@ -56,7 +54,7 @@
         </p>
 
         <p>Listen to this sample of Two Face:
-            <audio width="300" height="300" src="../cit230/indv-design-docs/twoface.ogg" controls></audio>
+            <audio src="../cit230/indv-design-docs/twoface.ogg" controls></audio>
         </p>
 
         <button>Buy $4.00</button>
